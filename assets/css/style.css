@@ -39,13 +39,11 @@
         text-align: center;
         display: block;
     }
-    #myName{
+    #myName {
         background-color: #4aaaa5;
-        font-size: 20px;
-        margin-left: 100px;
     }
 #Sidebar {
-    width: 150px;
+    width: 20px;
     height: 400px;
     float: left;
     background-color: #ffffff;
@@ -56,10 +54,13 @@
     float: right;
     background-color: #ffffff;
     border-color: #cccccc;
+    font-color: #777777;
 }
 #Footer {
-    height: 100px;
+    height: 50px;
     margin-bottom: 21px;
     background-color: #666666;
     clear: both;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: center;
 }

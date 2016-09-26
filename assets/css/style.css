@@ -1,0 +1,65 @@
+#Container {
+    width: 800px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 11px;
+}
+#Header {
+    height: 15px;
+    background-color: #ffffff;
+    border-color: #cccccc;
+}
+#Menu {
+    height: 60px;
+    background-color: blue;
+    }
+    #Menu ul {
+        margin: 0;
+        padding: 0;
+        position: fixed;
+        width: 100%;
+        border: 1px solid #e7e7e7;
+        background-color: #ffffff;
+    }
+    #Menu li {
+        list-style-type: none;
+        float: left;
+        display: block;
+        width: 150px;
+        height: 60px;
+        font-family: Arial;
+        font-size: 15px;
+        font-color: #777777;
+    }
+    #Menu li a {
+        text-decoration: none;
+        color: black;
+        padding: 14px 16px;
+        text-align: center;
+        display: block;
+    }
+    #myName{
+        background-color: #4aaaa5;
+        font-size: 20px;
+        margin-left: 100px;
+    }
+#Sidebar {
+    width: 150px;
+    height: 400px;
+    float: left;
+    background-color: #ffffff;
+}
+#MainBody {
+    width: 650px;
+    height: 400px;
+    float: right;
+    background-color: #ffffff;
+    border-color: #cccccc;
+}
+#Footer {
+    height: 100px;
+    margin-bottom: 21px;
+    background-color: #666666;
+    clear: both;
+}

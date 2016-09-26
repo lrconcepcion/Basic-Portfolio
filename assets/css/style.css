@@ -30,7 +30,7 @@
         height: 60px;
         font-family: Arial;
         font-size: 15px;
-        font-color: #777777;
+        font-color: black;
     }
     #Menu li a {
         text-decoration: none;
@@ -55,6 +55,12 @@
     background-color: #ffffff;
     border-color: #cccccc;
     font-color: #777777;
+}
+#bigBox {
+    float: left;
+}
+#smallBox {
+    float: right;
 }
 #Footer {
     height: 50px;
